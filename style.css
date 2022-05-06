@@ -1,0 +1,111 @@
+body{
+    /* google font*/
+    font-family: 'Poppins', sans-serif;
+    /*left gola margin full page theke 0 korlam .top-banner class style deoar por */
+    margin: 0%;
+}
+h1{
+    /*heading font size*/
+    font-size: 55px;
+}
+.name{
+    /*inside heading tag name color change*/
+    color: orange;
+}
+
+section{
+    /*পাশাপাশি হওয়া ২টা div*/
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    /*div এর width 50% করা*/
+    width: 50%;
+    /* সব দিকে (up+bottom,right+left) main page থেকে 20px জায়গা ছাড়া*/
+    padding: 2%;
+}
+.half-width img{
+   /* নিজের পাওয়া জায়গার image 100% জায়গা নেয়া */
+    width: 100%;
+}
+.anchor-button{
+    /*link নিচের দাগ চলে যাওয়া*/
+    text-decoration: none;
+    /*color mixed gradient*/
+    background-image: linear-gradient(orange, tomato);
+    /*font color*/
+    color: white;
+    /*font bolt*/
+    font-weight: 700;
+    /*button inside content text padding*/
+    padding: 10px 40px;
+    /*border 4 দিকে angel*/
+    border-radius: 10px;
+    /**/
+}
+.top-banner{
+    /*left top gola img deo*/
+    background-image: url(images/top-banner.png);
+    /*backround gola 2bar ase off korar jonno*/
+    background-repeat: no-repeat;
+}
+.dream-area{
+    /*2nd part এর ডান পাসের গোল backround image আনা*/
+    background-image: url(images/dream-bg.png);
+    /*backround একই image repeat না হতে দেয়া*/
+    background-repeat: no-repeat;
+    /*ডান দিকে নির্দিষ্ট জায়গায় থাকা*/
+    background-position: right;
+}
+
+/*bottom part er heading এর জন্য*/
+.bottom-area{
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+/*full-stack,baby-web part এর heading এর color*/
+h3{
+    color: orange;
+}
+/*experiences 1st part*/
+#full-stack {
+    /*shadow পরিমান*/
+    box-shadow: 7px 7px 20px;
+    /*সব দিকে (up+bottom,right+left) main page থেকে 10px জায়গা ছাড়া*/
+    margin: 10px;
+    /*margin এর পর 4%*/
+    padding: 4%;
+    /*left blue border line আনা সাধারন নিয়ম*/
+    border-left: 10px solid blue;   
+    border-radius: 10px;
+
+}
+/*experiences 2nd part*/
+#baby-web{    
+    box-shadow: 7px 7px 20px;   
+    margin: 10px;
+    padding: 4%;
+    
+    /*left blue border line আনা সাধারন নিয়ম*/
+    border-left: 10px solid blue;   
+    border-radius: 10px;
+    
+}
+/*full experience part backround image*/
+.experience-area{
+    /*experience part এর backround image setup*/
+    background-image: url(images/exp-bg.png);
+    /*backround একই image repeat না হতে দেয়া*/
+    background-repeat: no-repeat;
+    /*backround image position */
+    background-position: left;
+
+}
+
+footer{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+}
